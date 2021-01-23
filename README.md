@@ -2,7 +2,7 @@
 
 ## Description
 
-This template repository built with MySQL, ExpressJS, HandlebarsJS, and NodeJS in mind.
+This template repository is built for projects using MySQL, ExpressJS, HandlebarsJS, and NodeJS.
 
 ## Table of Contents
 
@@ -10,10 +10,8 @@ This template repository built with MySQL, ExpressJS, HandlebarsJS, and NodeJS i
 - [Badges](#badges)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Tests](#tests)
 - [Support](#support)
 - [Credits](#credits)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -26,15 +24,11 @@ This template repository built with MySQL, ExpressJS, HandlebarsJS, and NodeJS i
 
 ## Installation
 
-TBD (Optional)
+TBD
 
 ## Usage
 
-Include instructions and examples for use. Include screenshots as needed.
-
-## Tests
-
-TBD (Optional)
+TBD
 
 ## Support
 
@@ -42,11 +36,7 @@ For support on this app, feel free to [email me](mailto://nathan@castaldi.dev).
 
 ## Credits
 
-TBD (Optional)
-
-## Contributing
-
-TBD (Optional)
+TBD
 
 ## License
 
