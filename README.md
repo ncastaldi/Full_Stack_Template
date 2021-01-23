@@ -1,8 +1,8 @@
-# Your Project Title
+# M.E.H.N Stack Template Repo
 
 ## Description
 
-Include description of app.
+This template repository built with MySQL, ExpressJS, HandlebarsJS, and NodeJS in mind.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ Include description of app.
 
 ## Features
 
-TBD (Optional)
+- [Getting Started guide](https://github.com/ncastaldi/template-full_stack/blob/main/public/assets/docs/Getting%20Started.md)
 
 ## Badges
 
