@@ -1,4 +1,4 @@
-# M.E.H.N Stack Template Repo
+# M.E.H.N. Stack Template
 
 ## Description
 
@@ -17,10 +17,15 @@ This template for MySQL, Express, Handlebars, and Node applications hosted on He
 ## Features
 
 - [Getting Started guide](https://github.com/ncastaldi/template-full_stack/blob/main/public/assets/docs/Getting%20Started.md)
+- Custom CSS and JS files prepopulated with comments
 
 ## Badges
 
-[Get Badges](https://shields.io/)
+- [Get Additional Badges](https://shields.io/)
+
+[![GitHub license](https://img.shields.io/github/license/ncastaldi/Full_Stack_Template?style=for-the-badge)](https://github.com/ncastaldi/Full_Stack_Template/blob/main/LICENSE)
+
+[![GitHub forks](https://img.shields.io/github/forks/ncastaldi/Full_Stack_Template?style=for-the-badge)](https://github.com/ncastaldi/Full_Stack_Template/network)
 
 ## Installation
 
@@ -28,7 +33,7 @@ TBD
 
 ## Usage
 
-TBD
+Follow "Getting Started" guide for setup and customization.
 
 ## Support
 
