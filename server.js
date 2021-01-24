@@ -2,9 +2,6 @@
 const express = require("express");
 const exphbs = require("express-handlebars");
 
-// Require local depenancies
-const connection = require("./config/connection");
-
 // Decalre instance of ExpressJS
 const app = express();
 
@@ -13,6 +10,9 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // Middleware
+// Serve static content for the app from the "public" directory in the application directory.
+app.use(express.static("public"));
+
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -21,18 +21,10 @@ app.use(express.json());
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-// Declare and make connection to database
-connection.makeConnection();
+// Import routes and give the server access to them.
+const routes = require("./controllers/controller"); // Update controler name, if needed
 
-// HTML Routes
-app.get("/", function (req, res) {
-    res.send("Hello, world!");
-});
-// HTML Routes
-
-// API Routes
-// API Routes
-
+app.use(routes);
 
 // Start Express server
 app.listen(PORT, function () {
