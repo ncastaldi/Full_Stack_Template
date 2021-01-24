@@ -2,7 +2,7 @@
 
 ## Description
 
-This template repository is built for projects using MySQL, ExpressJS, HandlebarsJS, and NodeJS.
+This template for MySQL, Express, Handlebars, and Node applications hosted on Heroku.
 
 ## Table of Contents
 
